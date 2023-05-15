@@ -1,5 +1,5 @@
-function imc(weight, height) {
-    return weight / height ** 2
+function bmi(peso, altura) {
+    return peso / altura ** 2
   }
   
-  console.log("Tu IMC es: " + imc(57, 1.56));
+  console.log("Tu IMC es: " + bmi(57, 1.56));
